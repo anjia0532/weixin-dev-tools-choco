@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>weixin-dev-tools</id>
+    <version>1.05.2105170</version>
+    <title>Weixin DevTools (Install)</title>
+    <authors>tenant wechat</authors>
+    <owners>anjia0532</owners>
+    <packageSourceUrl>https://github.com/anjia0532/weixin-dev-tools-choco</packageSourceUrl>
+    <projectUrl>https://developers.weixin.qq.com/miniprogram/dev/devtools/page.html</projectUrl>
+    <licenseUrl>https://developers.weixin.qq.com/miniprogram/product/service/</licenseUrl>
+    <iconUrl>https://file.service.qq.com/user-files/uploads/201612/0ce9ee10d3099f9989a81308811be588.png</iconUrl>
+    <docsUrl>https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html</docsUrl>
+    <!-- <mailingListUrl>anjia0532@gmail.com</mailingListUrl> -->
+    <bugTrackerUrl>https://developers.weixin.qq.com/community/develop/question</bugTrackerUrl>
+    <releaseNotes>
+    ### 2021.05.17
+    - A 新增 不再提供 小程序打开App技术服务 提示逻辑
+    </releaseNotes>
+    <tags>weixin weixin-dev weixin-dev-tools</tags>
+    <summary>To help developers develop and debug Weixin Mini Programs more simply and efficiently</summary>
+    <description>To help developers develop and debug Weixin Mini Programs more simply and efficiently, we have launched the new Weixin DevTools based on the original Official Account web debugging tools. Therefore, we now have two developer modes: Official Account web debugging and Mini Program debugging.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
