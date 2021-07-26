@@ -7,11 +7,11 @@ if ($key.Count -gt 0) {
     Invoke-Expression -Command $PSScriptRoot\chocolateyUninstall.ps1
 }
 
-$url = 'https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&from=mpwiki&download_version=1052105170&version_type=1'
-$checksum = '95578F85C9760A763D78D9F935ED17994F0B2EE944EAEA42810586F39EB78A0A'
+$url = 'https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&from=mpwiki&download_version=1052107090&version_type=1'
+$checksum = '08062137302BE361B4819BEF0D53BA5D24ED7BF38E822090B9A442875C13F6CB'
 
-$url64 = 'https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&from=mpwiki&download_version=1052105170&version_type=1'
-$checksum64 = 'F4862E399D74EB0888115DC90E9724380DD266E5F896653BF86FEED4D5987C97'
+$url64 = 'https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&from=mpwiki&download_version=1052107090&version_type=1'
+$checksum64 = 'DA2E5BDFFA6CB858BBEAD21B1079512B1C15857B1EE79F0F8503C64EB0610CE7'
 
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 if ([System.Environment]::Is64BitOperatingSystem) {

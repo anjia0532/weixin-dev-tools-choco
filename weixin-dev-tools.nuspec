@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>weixin-dev-tools</id>
-    <version>1.05.2105170</version>
+    <version>1.05.2107090</version>
     <title>Weixin DevTools (Install)</title>
     <authors>tenant wechat</authors>
     <owners>anjia0532</owners>
@@ -14,6 +14,9 @@
     <!-- <mailingListUrl>anjia0532@gmail.com</mailingListUrl> -->
     <bugTrackerUrl>https://developers.weixin.qq.com/community/develop/question</bugTrackerUrl>
     <releaseNotes>
+    ### 2021.05.17
+    - F 修复 部分项目使用增强编译后，因压缩问题导致代码包体积变大。
+    - F 修复 初始新建云开发项目编译异常的相关问题
     ### 2021.05.17
     - A 新增 不再提供 小程序打开App技术服务 提示逻辑
     </releaseNotes>
