@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>weixin-dev-tools</id>
-    <version>1.05.2107090</version>
+    <version>1.06.2402040</version>
     <title>Weixin DevTools (Install)</title>
     <authors>tenant wechat</authors>
     <owners>anjia0532</owners>
@@ -13,13 +13,7 @@
     <docsUrl>https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html</docsUrl>
     <!-- <mailingListUrl>anjia0532@gmail.com</mailingListUrl> -->
     <bugTrackerUrl>https://developers.weixin.qq.com/community/develop/question</bugTrackerUrl>
-    <releaseNotes>
-    ### 2021.05.17
-    - F 修复 部分项目使用增强编译后，因压缩问题导致代码包体积变大。
-    - F 修复 初始新建云开发项目编译异常的相关问题
-    ### 2021.05.17
-    - A 新增 不再提供 小程序打开App技术服务 提示逻辑
-    </releaseNotes>
+    <releaseNotes>https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html</releaseNotes>
     <tags>weixin weixin-dev weixin-dev-tools</tags>
     <summary>To help developers develop and debug Weixin Mini Programs more simply and efficiently</summary>
     <description>To help developers develop and debug Weixin Mini Programs more simply and efficiently, we have launched the new Weixin DevTools based on the original Official Account web debugging tools. Therefore, we now have two developer modes: Official Account web debugging and Mini Program debugging.</description>
