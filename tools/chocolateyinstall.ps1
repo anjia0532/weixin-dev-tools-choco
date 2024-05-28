@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$softwareName = 'wechat-devtools*'
+$softwareName = '微信开发者工具*'
 [array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
 
 if ($key.Count -gt 0) {
@@ -20,14 +20,14 @@ if ([System.Environment]::Is64BitOperatingSystem) {
 else {
     $programFiles = ${env:ProgramFiles(x86)}
 }
-$installDir = "$programFiles\win-rdm"
+$installDir = "$programFiles\tencent\wechat-devtools"
 
 $pp = Get-PackageParameters
 if ($pp.InstallDir) {
     $installDir = $pp.InstallDir
 }
 
-$silentArgs = "/S /D=$installDir"
+$silentArgs = "/qn /norestart /S /D=$installDir"
 
 New-Item -ItemType Directory -Force -Path $installDir
 
